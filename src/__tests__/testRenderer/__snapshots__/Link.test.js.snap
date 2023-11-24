@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link 3) making snapshots with mouse events 1`] = `
+<a
+  className="normal"
+  href="test_url"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="test_link"
+>
+  link content
+</a>
+`;
+
+exports[`Link 3) making snapshots with mouse events 2`] = `
+<a
+  className="hovered"
+  href="test_url"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="test_link"
+>
+  link content
+</a>
+`;
+
+exports[`Link 3) making snapshots with mouse events 3`] = `
+<a
+  className="normal"
+  href="test_url"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="test_link"
+>
+  link content
+</a>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox 2) making snapshots with checked/unchecked 1`] = `
+<input
+  checked={false}
+  onChange={[Function]}
+  role="test_checkbox"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox 2) making snapshots with checked/unchecked 2`] = `
+<input
+  checked={true}
+  onChange={[Function]}
+  role="test_checkbox"
+  type="checkbox"
+/>
+`;

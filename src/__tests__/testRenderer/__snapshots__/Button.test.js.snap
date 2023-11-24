@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button 2) is content changed after click with successful request 1`] = `
+<div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+    role="test_button"
+  >
+    click me to see the message
+  </button>
+</div>
+`;
+
+exports[`Button 2) is content changed after click with successful request 2`] = `
+<div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+    role="test_button"
+  >
+    click me to see the message
+  </button>
+  <p
+    role="message"
+  >
+    username_mock has an account on Github
+  </p>
+</div>
+`;
+
+exports[`Button 3) is content changed after unsuccessful request 1`] = `
+<div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+    role="test_button"
+  >
+    click me to see the message
+  </button>
+</div>
+`;
+
+exports[`Button 3) is content changed after unsuccessful request 2`] = `
+<div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+    role="test_button"
+  >
+    click me to see the message
+  </button>
+</div>
+`;
