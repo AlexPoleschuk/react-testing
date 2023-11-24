@@ -1,6 +1,6 @@
 {
   "name": "react-testing",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "author": {
     "name": "Alex Poleschuk",
@@ -15,7 +15,8 @@
   "scripts": {
     "test": "run-p --aggregate-output \"test:*\"",
     "test:rtl": "jest \"src/__tests__/rtl\"",
-    "test:rtr": "jest \"src/__tests__/testRenderer\""
+    "test:rtr": "jest \"src/__tests__/testRenderer\"",
+    "test:tu": "jest \"src/__tests__/testUtils\""
   },
   "peerDependenciesMeta": {
     "@testing-library/dom": {
